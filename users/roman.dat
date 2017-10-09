@@ -1,0 +1,11 @@
+make_user(
+    'Roman',      # name
+    [                   # reviews
+        make_review('Bongo Burger', 4.0),
+        make_review('Crossroads', 3.0),
+        make_review('Fat Slice Pizza', 2.0),
+        make_review('Cafe Milano', 5.0),
+        make_review("Bear's Ramen House", 1.5),
+        make_review('Chipotle Mexican Grill', 3.0)
+    ]
+)
